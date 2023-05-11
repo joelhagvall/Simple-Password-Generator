@@ -12,7 +12,7 @@ def generate_password(length, complexity):
 
 def main():
     length = int(input('Enter password length: '))
-    complexity = input('Enter password complexity (low/medium/high): ')
+    complexity = input('Enter password complexity of your choice (low/medium/high): ')
     password = generate_password(length, complexity)
     print('Your new password is:', password)
 
